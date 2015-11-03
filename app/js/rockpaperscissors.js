@@ -87,7 +87,7 @@ function playToFive() {
         if (playerWins == 5 || computerWins == 5){
             break;
         }
-        var playerMove = getPlayerMove(); 
+        var playerMove = getPlayerMove();
         var comMove = getComputerMove();
         var winner = getWinner(playerMove, comMove);
         console.log(winner);
@@ -102,3 +102,5 @@ function playToFive() {
     }
     return [playerWins, computerWins];
 }
+
+playToFive();
